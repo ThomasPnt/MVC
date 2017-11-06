@@ -3,7 +3,7 @@
 	  public function __construct(){
 	  }
 	  public function run(){
-		  require_once View . 'presentation.php';
+		  include View . 'presentation.php';
 	  }
   }
 ?>
