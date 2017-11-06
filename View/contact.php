@@ -12,7 +12,7 @@
             </div>
 
             <div class="carteglougole">
-              <img src="https://www.google.be/maps/place/Rue+Saint-Georges+35,+1400+Nivelles/@50.5969676,4.3251808,16z/data=!4m5!3m4!1s0x47c232d3694f6c59:0xe7333aff0bd54fec!8m2!3d50.5975916!4d4.3271431?hl=fr" alt="plan">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.5890241181537!2d4.324949051416682!3d50.597591579395356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c232d3694f6c59%3A0xe7333aff0bd54fec!2sRue+Saint-Georges+35%2C+1400+Nivelles!5e0!3m2!1sfr!2sbe!4v1509981896259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
             <div class="bas de page">
@@ -24,7 +24,7 @@
               <label>Fouiller le stock</label>
               <input type="text" name="recherche" value="">
 
-              <!-- A mettre sur la même ligne que le la fenêtre suivante-->
+              <!-- A mettre sur la même ligne que le la fenêtre précédente-->
               <input type="submit" class="button" value="Itinéraire">
             </form>
 
