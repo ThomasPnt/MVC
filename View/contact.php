@@ -8,7 +8,7 @@
 
             <div class="coordonées">
               <p>+32 495 20.59.34 <br>Rue Saint Georges , 35 ,<br>1400 Nivelles ,<br>Belgique.</p>
-              <p>Retrouvez nos mises à jour en vous <button type="button" name="bouton" src="">abonnant à notre page Facebook</button></p>  <!--Pensez à faire un css sur le bouton à faire en noir avec angles arrondis et lettres épaisses et blanches et en minuscules ! et à connecter le lien url-->
+              <p>Retrouvez nos mises à jour en vous <button type="button" name="bouton" src="">abonnez-vous à notre page Facebook</button></p>  <!--Pensez à faire un css sur le bouton à faire en noir avec angles arrondis et lettres épaisses et blanches et en minuscules ! et à connecter le lien url-->
             </div>
 
             <div class="carteglougole">
