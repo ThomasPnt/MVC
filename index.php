@@ -13,7 +13,7 @@
     <?php 
       include(View . 'header.php');
 
-      $page = htmlentities($_GET['page']);
+      $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
       switch ($page) {
         case 'presentation':
           include(Controller . 'presentationController.php');
