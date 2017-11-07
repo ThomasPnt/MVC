@@ -1,0 +1,48 @@
+#global {
+  width : 100%;
+  position: relative;
+  overflow: hidden;
+  background: #F7F7F7;
+  color: #222;
+  padding-top: 40px;
+}
+
+h1.contact{
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-align: center
+  font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 40px;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.textehoraire{
+  max-width: 45em;
+  margin: auto;
+}
+
+.texthor.h2{
+  text-transform: none;
+  font-weight: bold;
+  font-size: 160%;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.deuxboutons{
+
+}
+
+.carteglougole{
+  height : 480px;
+}
+
+.basdepage{
+  display: block;
+}
