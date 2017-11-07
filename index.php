@@ -1,9 +1,6 @@
 <?php 
   define('View', 'View/');
   define('Controller', 'Controller/');
-
-  $page = isset($_GET['action']) ? htmlentities($_GET['action']) : 'default';
-  $controller = '';
 ?>
 
 <html lang="en">
@@ -14,25 +11,30 @@
 
   <body>
     <?php 
-      require_once(View . 'header.php');
+      include(View . 'header.php');
 
+      $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
       switch ($page) {
         case 'presentation':
-          require_once(Controller . 'presentation.php');
+          include(Controller . 'presentationController.php');
           $controller = new presentationController();
           break;
 	      case 'stock':
-          require_once(Controller . 'stock.php');
+          include(Controller . 'stockController.php');
           $controller = new stockController();
           break;
 	      case 'contact':
-          require_once(Controller . 'contact.php');
+          include(Controller . 'contactController.php');
           $controller = new contactController();
           break;
+        default:
+  	      include(Controller . 'presentationController.php');
+  	      $controller = new presentationController();
+  	      break;
 	    }
       $controller->run();
     
-      require_once(View . 'footer.php'); 
+      include(View . 'footer.php'); 
     ?>
   </body>
 </html>
