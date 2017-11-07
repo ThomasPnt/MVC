@@ -1,9 +1,10 @@
+<link rel="stylesheet" href="css/header.css">
 <div class="header">
   <div class="head">
     <ul>
       <li>Antiquité</li>
       <li>Décoration</li>
-      <li>Agencement</li>
+      <li>Interior design</li>
     </ul>
   </div>
   <div class="langues">
@@ -12,13 +13,13 @@
   </div>
 </div>
 <div class="header2">
-  <div class="image"><img src="https://didiermotte.be/"></img></div>
+  <div class="image">
+    <p>Didier</br>Motte</p>
+  </div>
   <div class="menu">
-    <ul>
-      <li>Présentation</li>
-      <li>Le stock</li>
-      <li>Contact</li>
-    </ul>
+    <a href="" alt="présentation"> Présentation</a>
+    <a id='milieu' href="" alt="stock"> Le stock</a>
+    <a href="" alt="contact"> Contact</a>
   </div>
   <div class="phone">
     <p>+32 495/20.59.34</p>
