@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles_presentation.css">
 <div id="container">
   <div>
     <h1>DIDIER MOTTE</h1>
