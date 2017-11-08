@@ -1,6 +1,8 @@
+/*FOOTER*/
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  font-family: "Open Sans","Avenir Next",sans-serif;
 }
 
 .footer {
