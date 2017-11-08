@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./css/stock.css">
-
+<?php include('header.php'); ?>
 <div class="PageStock">
   <h1>Objets</h1>
     <form class="rechercheStock" action="stock.php" method="get">
@@ -17,3 +17,4 @@
     </div>
   </div>
 </div>
+<?php include('footer.php'); ?>
