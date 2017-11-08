@@ -1,22 +1,173 @@
-*{font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+/*FOOTER*/
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Open Sans","Avenir Next",sans-serif;
 }
 
+.footer {
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  line-height: 200%;
+  padding: 2em;
+}
+
+.footer a{
+  color: white;
+  border-bottom: 1px dotted #F7F7F7;
+  text-decoration: none;
+}
+
+/*HEADER*/
+
+.header{
+  position: static;
+  color: white;
+  background-color: #272727;
+  height: 40px;
+  border-bottom: 1px solid #333;
+}
+
+.head {
+  float: left;
+  margin-top: 10px;
+}
+
+.head ul{
+  padding-left: 1px;
+}
+
+.head li{
+  display: inline;
+  list-style: initial;
+}
+
+.langues{
+  margin-right: 20px;
+}
+
+.langues a{
+  float: right;
+  color: white;
+  text-decoration: none;
+  margin-top:7px;
+  margin-right: 20px;
+  background-color: #564e44;
+  padding : 2px 10px;
+  border-radius: 5px;
+}
+
+.header2 {
+  height: 80px;
+  position: static;
+  color: white;
+  background-color: #272727;
+  display: flex;
+}
+
+.image {
+  height: 100%;
+  width: 20%;
+  float: left;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaM5imiNmJhsGe2kYuI3hJ-LFPhMNKB8JVTz3V05q0A1a24_-iyA');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image p {
+  text-align: center;
+  font-size: 2em;
+}
+
+.menu {
+  text-align: center;
+  height: 100%;
+  width: 60%;
+}
+
+.menu a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: #564e44;
+  padding : 5px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#milieu{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.phone {
+  width: 20%;
+  height: 100%;
+}
+
+.phone p{
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-right: 5%;
+}
+/*STOCK*/
+.PageStock {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.stock {
+  top: 120px;
+  height: 100vh;
+}
+
+.Photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Acajou, .Balance, .Bois, .Canape {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px 5px 0px 5px;
+
+}
+
+form {
+  height: 100px;
+  margin-top: 65px;
+}
+label {
+  font-size: 25px;
+}
+/*Présentation*/
+
 #container{
-  width: 585px;
   display: block;
   margin: 0 auto;
 }
-h1{
+#container h1{
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
 }
-.img{
+#container .img{
   width: 509px;
   display: block;
   margin: 0 auto;
 }
-h3{
+#container h3{
+  width: 585px;
   text-transform: none;
   font-weight: bold;
   font-size: 160%;
@@ -25,17 +176,19 @@ h3{
   margin-bottom: 0;
   padding-bottom: 0;
 }
-p{
+#container p{
+  width: 585px;
   text-align: left;
   font-size: 100%;
   line-height: 1.4;
 }
-q{
-    font-style: italic;
-    text-align: left;
-    line-height: 1.4;
+#container q{
+  width: 585px;
+  font-style: italic;
+  text-align: left;
+  line-height: 1.4;
 }
-a{
+#container a{
   background-color: black;
   border-radius: 5px;
   color:#FFFFFF;
@@ -44,7 +197,7 @@ a{
   padding: 4px;
   text-decoration: none;
 }
-a:hover{
+#container a:hover{
   background-color: #FFFFFF;
   color:black;
   border-radius:5px;
