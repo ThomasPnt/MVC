@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/footer.css">
 <div class="footer">
   <p>© 2017 Didier Motte +32 495 20 59 34 - <a href "" alt="Email">dmotte@skynet.be</a> - <a href="/contact.php" alt="Plan d'accès">Plan d'accès</a></p>
   <p>Décorateur, Antiquaire, agencement d'intérieurs, Belgique</p>

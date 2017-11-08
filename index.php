@@ -7,10 +7,12 @@
   <head>
     <meta charset="utf-8">
     <title>Didier Motte - Antiquité, Décoration</title>
+    <link rel="stylesheet" href="./View/css/styles.css">
   </head>
 
   <body>
     <?php
+      include(View . 'header.php');
 
       $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
       switch ($page) {
@@ -33,6 +35,7 @@
 	    }
       $controller->run();
 
+      include(View . 'footer.php');
     ?>
   </body>
 </html>

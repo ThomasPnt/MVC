@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/styles_presentation.css">
-<?php include('header.php'); ?>
 <div id="container">
   <div>
     <h1>DIDIER MOTTE</h1>
@@ -37,4 +35,3 @@
     <p>MY ITALIAN FRIENDS : ( Waterloo ) Restaurant et design italien</p>
   </div>
 </div>
-<?php include('footer.php'); ?>
