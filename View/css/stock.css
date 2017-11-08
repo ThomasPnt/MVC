@@ -15,17 +15,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
-  height: 90%;
-  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .Acajou, .Balance, .Bois, .Canape {
   background-color: blue;
-  height: 250px;
-  width: 290px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
   margin: 10px 5px 0px 5px;
+
 }
 
 form {
