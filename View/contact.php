@@ -1,4 +1,4 @@
-
+<?php include('header.php'); ?>
     <div id="global">
       <h1>Contact</h1>
       <div class="textehoraire">
@@ -35,3 +35,4 @@
         </div>
       </div>
     </div>
+    <?php include('footer.php'); ?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
   define('View', 'View/');
   define('Controller', 'Controller/');
 ?>
@@ -10,8 +10,7 @@
   </head>
 
   <body>
-    <?php 
-      include(View . 'header.php');
+    <?php
 
       $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
       switch ($page) {
@@ -33,8 +32,7 @@
   	      break;
 	    }
       $controller->run();
-    
-      include(View . 'footer.php'); 
+
     ?>
   </body>
 </html>

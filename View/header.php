@@ -17,9 +17,9 @@
     <p>Didier</br>Motte</p>
   </div>
   <div class="menu">
-    <a href="View/presentation.php" alt="présentation"> Présentation</a>
-    <a id='milieu' href="View/stock.php" alt="stock"> Le stock</a>
-    <a href="View/contact.php" alt="contact"> Contact</a>
+    <a href="./presentation.php" alt="présentation"> Présentation</a>
+    <a id='milieu' href="./stock.php" alt="stock"> Le stock</a>
+    <a href="./contact.php" alt="contact"> Contact</a>
   </div>
   <div class="phone">
     <p>+32 495/20.59.34</p>
