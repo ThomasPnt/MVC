@@ -25,9 +25,10 @@
               <p>Retrouvez nos mises à jour en vous  <a href="https://www.facebook.com/antiquites.decoration">abonnant à notre page Facebook</a> </p>  <!--Pensez à faire un css sur le bouton à faire en noir avec angles arrondis et lettres épaisses et blanches et en minuscules ! et à connecter le lien url-->
             </div>
 
-            <div class="carteglougole">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.5890241181537!2d4.324949051416682!3d50.597591579395356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c232d3694f6c59%3A0xe7333aff0bd54fec!2sRue+Saint-Georges+35%2C+1400+Nivelles!5e0!3m2!1sfr!2sbe!4v1509981896259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+        <!-- fenêtre de remplissage-->
+        <form class="rechercheStock" action="stock.php" method="get">
+          <label>Fouiller le stock</label>
+          <input type="text" name="recherche" value="">
 
             <div class="basdepage">
               <h3>Lieu de départ :
@@ -45,6 +46,8 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
 
 </body>
 </html>
