@@ -13,9 +13,8 @@
     <?php 
       include(View . 'header.php');
 
-      $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'default';
-      $controller = '';
-      switch ($action) {
+      $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
+      switch ($page) {
         case 'presentation':
           include(Controller . 'presentationController.php');
           $controller = new presentationController();
@@ -29,9 +28,9 @@
           $controller = new contactController();
           break;
         default:
-		      include(Controller . 'presentationController.php');
-		      $controller = new presentationController();
-		      break;
+  	      include(Controller . 'presentationController.php');
+  	      $controller = new presentationController();
+  	      break;
 	    }
       $controller->run();
     
