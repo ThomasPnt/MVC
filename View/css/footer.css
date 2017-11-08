@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  line-height: 200%;
+  padding: 2em;
+}
+
+.footer a{
+  color: white;
+  border-bottom: 1px dotted #F7F7F7;
+  text-decoration: none;
+}
