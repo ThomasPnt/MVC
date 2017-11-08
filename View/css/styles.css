@@ -155,16 +155,19 @@ label {
 #container{
   display: block;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 #container h1{
   text-transform: uppercase;
   font-weight: 400;
+  padding-top: 40px;
   text-align: center;
 }
-#container .img{
+#container img{
   width: 509px;
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
 }
 #container h3{
   width: 585px;
@@ -180,13 +183,13 @@ label {
   width: 585px;
   text-align: left;
   font-size: 100%;
-  line-height: 1.4;
+  line-height: 200%;
 }
-#container q{
+#container .italique p{
   width: 585px;
   font-style: italic;
   text-align: left;
-  line-height: 1.4;
+  line-height: 150%;
 }
 #container a{
   background-color: black;
