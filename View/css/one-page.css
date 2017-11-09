@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+h1{
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  padding: 25px;
+  font-family: 'Open Sans';
+}
+
+#container{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+#presentation h1{
+  font-size: 150px;
+  font-weight: lighter;
+  width: 60%;
+  line-height: 140px;
+  color: white;
+}
+
+#presentation {
+  background-image: url('https://contattafiles.s3-us-west-1.amazonaws.com/tnt14094/mJzvewP4ShmY6b2/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#presentation p{
+  width: 50%;
+  text-align: justify;
+  line-height: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 25px;
+}
+
+#presentation ul{
+list-style: none;
+width: 50%;
+padding: 0;
+}
+
+#presentation li{
+  display: inline-block;
+  margin: 50px;
+  text-transform: uppercase;
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+#presentation li:hover{
+  opacity: 1;
+
+  transition: 0.5s;
+}
+
+#italique{
+  font-style: italic;
+}
+
+#stock h1{
+  font-size: 50px;
+}
+
+#stock {
+  background-color: #f5F5f5;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+#stock p{
+  text-transform: uppercase;
+}
+
+
+.image {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgs {
+  width: 250px;
+  height: 250px;
+  margin-top: 30px;
+}
+
+#contact {
+  background-color: #272727;
+}
+
+#contact h1{
+  color: white;
+}
+
+.map iframe{
+  padding: 10px;
+  width: 50%;
+  border: 0;
+}
+
+#contact p{
+  color: white;
+  padding-bottom: 10px;
+}
+
+#contact h1{
+  margin-bottom: 0;
+}
+
+#contact a{
+  color: #f5F5f5;
+}
