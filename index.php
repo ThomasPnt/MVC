@@ -20,19 +20,19 @@
           include(Controller . 'presentationController.php');
           $controller = new presentationController();
           break;
-	      case 'stock':
+        case 'stock':
           include(Controller . 'stockController.php');
           $controller = new stockController();
           break;
-	      case 'contact':
+        case 'contact':
           include(Controller . 'contactController.php');
           $controller = new contactController();
           break;
         default:
-  	      include(Controller . 'presentationController.php');
-  	      $controller = new presentationController();
-  	      break;
-	    }
+          include(Controller . 'presentationController.php');
+          $controller = new presentationController();
+          break;
+      }
       $controller->run();
 
       include(View . 'footer.php');
