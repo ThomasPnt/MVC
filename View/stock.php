@@ -8,10 +8,19 @@
   <div class="stock">
     <h2>Catalogue</h2>
     <div class="Photos">
-      <div class="Acajou">Acajou</div>
-      <div class="Balance">Balance</div>
-      <div class="Bois">Bois</div>
-      <div class="Canape">Canapé</div>
+      <?php
+        try {
+          $DB = new PDO('mysql:host=localhost;dbname=stocks;charset=utf8','root','user');
+          $DB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch(Exception $e) {
+          die('Error : '.$e->getMessage());
+        }
+
+        $sql = $DB->query('SELECT * FROM img');
+        while($img = $sql->fetch()) {
+          echo "<div class='stocks'><p>".$img['name']."</p><img class='grow' src='".$img['url']."'/></div>";
+        }
+      ?>
     </div>
   </div>
 </div>

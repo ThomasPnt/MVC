@@ -142,13 +142,31 @@
   justify-content: space-around;
 }
 
-.Acajou, .Balance, .Bois, .Canape {
-  background-color: blue;
+.stocks {
   height: 200px;
   width: 200px;
   display: inline-block;
   margin: 10px 5px 0px 5px;
+}
 
+.stocks img {
+  width:100%;
+  height:100%;
+  border-radius: 5px;
+}
+
+.stocks p {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
 }
 
 form {
